@@ -13,6 +13,7 @@
   "author": "jden, zackliston, nathanbosse",
   "license": "none",
   "dependencies": {
-    "socket.io": "~0.9.14"
+    "socket.io": "~0.9.14",
+    "express": "~3.2.2"
   }
 }
