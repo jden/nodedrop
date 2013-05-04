@@ -1,0 +1,19 @@
+{
+  "name": "nodedrop",
+  "version": "0.1.0",
+  "description": "send files!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jden/nodedrop.git"
+  },
+  "author": "jden, zackliston, nathanbosse",
+  "license": "none",
+  "dependencies": {
+    "socket.io": "~0.9.14",
+    "express": "~3.2.2"
+  }
+}
