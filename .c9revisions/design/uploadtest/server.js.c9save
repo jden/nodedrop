@@ -1,0 +1,4 @@
+{"ts":1367702020645,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1367702176514,"patch":[[{"diffs":[[1,"var sdlfkjlkjsdfkjdsfkjdsfd"]],"start1":0,"start2":0,"length1":0,"length2":27}]],"length":27,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1367702351874,"patch":[[{"diffs":[[0,"sfkjdsfd"],[1,"dfdfdfdfdfdfdfdfdssasxcvxcvzxcvdsfdsf"]],"start1":19,"start2":19,"length1":8,"length2":45}]],"length":64,"saved":false}
+{"ts":1367702497566,"patch":[[{"diffs":[[0,"var "],[-1,"sdlfkjlkjsdfkjdsfkjdsfddfdfdfdfdfdfdfdfdssasxcvxcvzxcvdsfdsf"],[1,"http = require('http')\n\nhttp.createServer(function (req, res) {\n    console.log('req received')\n    console.log(req.headers)\n    \n})\n\nhttp.listen(1024)"]],"start1":0,"start2":0,"length1":64,"length2":155}]],"length":155,"saved":false}
