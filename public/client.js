@@ -29,6 +29,11 @@ socket.on('exit', function (id) {
 })
 
 
+socket.on('transfer', function (name, filename, link), function () {
+  console.log('init transfer', name, filename, link)
+})
+
+
 var $peers = $('#peers')
 function renderPeers() {
   console.log('rendering', peers)

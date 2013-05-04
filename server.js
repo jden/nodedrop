@@ -32,9 +32,9 @@ io.sockets.on('connection', function (socket) {
 
   socket.on('namechange', function (name) {
     console.log('namechange', socket.id, name)
+    peers[soscket.id].name = name
     socket.broadcast.emit('namechange', socket.id, name)
   })
-
 
 })
 
