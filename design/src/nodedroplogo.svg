@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="180.357px" height="138.502px" viewBox="0 0 180.357 138.502" enable-background="new 0 0 180.357 138.502"
+	 xml:space="preserve">
+<text transform="matrix(1 0 0 1 0 60.2642)" fill="#2E3192" font-family="'MyriadPro-Regular'" font-size="72">NODE</text>
+<g>
+	<line fill="#2E3192" x1="71.143" y1="60.359" x2="71.143" y2="99.359"/>
+	<g>
+		<path fill="#2E3192" d="M68.143,60.359c0,12.984,0,25.968,0,38.952c0,3.869,6,3.869,6,0c0-12.984,0-25.968,0-38.952
+			C74.143,56.49,68.143,56.49,68.143,60.359L68.143,60.359z"/>
+	</g>
+</g>
+<line fill="none" stroke="#2E3192" stroke-width="6" stroke-miterlimit="10" x1="71.143" y1="99.312" x2="87.476" y2="82.979"/>
+<line fill="none" stroke="#2E3192" stroke-width="6" stroke-miterlimit="10" x1="71.143" y1="99.312" x2="54.548" y2="82.717"/>
+<ellipse fill="#29ABE2" stroke="#2E3192" stroke-width="6" stroke-miterlimit="10" cx="70.095" cy="126.931" rx="40.238" ry="8.572"/>
+</svg>

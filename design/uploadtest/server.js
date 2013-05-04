@@ -4,6 +4,4 @@ http.createServer(function (req, res) {
     console.log('req received')
     console.log(req.headers)
     
-})
-
-http.listen(1024)
+}).listen(1024)

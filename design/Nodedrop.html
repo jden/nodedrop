@@ -3,7 +3,7 @@
 <meta name="viewport" content="width=620">
 <title>HTML5 Demo: Drag and drop, automatic upload</title>
 <link rel="stylesheet" href="http://html5demos.com/css/html5demos.css">
-<script type="text/javascript" async="" src="http://engine.carbonads.com/z/14060/azcarbon_2_1_0_VERT"></script><script type="text/javascript" async="" src="./HTML5 Demo  Drag and drop, automatic upload_files/azcarbon_2_1_0_VERT"></script><script src="./HTML5 Demo  Drag and drop, automatic upload_files/h5utils.js"></script><style>#adzerk_by {display:none}
+<script type="text/javascript" async="" src="http://engine.carbonads.com/z/14060/azcarbon_2_1_0_VERT"></script><script type="text/javascript" async="" src="./src/azcarbon_2_1_0_VERT"></script><script src="./src/h5utils.js"></script><style>#adzerk_by {display:none}
 
 /* vert */
 .carbonad {background-color:#FBFBFB;border:2px solid #E8E8E8;height:215px;line-height:1.2;width:150px;}
@@ -32,6 +32,9 @@
 .carbonad-tag a {color: #999999;text-align: center;text-decoration: none;font-weight: bold;}
 </style></head>
 <body>
+  <div align="center">
+    <img src="src/nodetitle.png" width="50%">
+  <img src="src/nodedroptop.png" width="50%" style="margin-bottom:-30px"></div>
 <section id="wrapper">
 
     <header>
@@ -92,24 +95,12 @@ var holder = document.getElementById('holder'),
 });
 
 function previewfile(file) {
-  if (tests.filereader === true && acceptedTypes[file.type] === true) {
-    var reader = new FileReader();
-    reader.onload = function (event) {
-      var image = new Image();
-      image.src = event.target.result;
-      image.width = 250; // a fake resize
-      holder.appendChild(image);
-    };
-
-    reader.readAsDataURL(file);
-  }  else {
     holder.innerHTML += '<p>Uploaded ' + file.name + ' ' + (file.size ? (file.size/1024|0) + 'K' : '');
     console.log(file);
   }
-}
+
 
 function readfiles(files) {
-    debugger;
     var formData = tests.formdata ? new FormData() : null;
     for (var i = 0; i < files.length; i++) {
       if (tests.formdata) formData.append('file', files[i]);
@@ -119,7 +110,7 @@ function readfiles(files) {
     // now post a new XHR request
     if (tests.formdata) {
       var xhr = new XMLHttpRequest();
-      xhr.open('POST', '/devnull.php');
+      xhr.open('POST', 'http://localhost:1024');
       xhr.onload = function() {
         progress.value = progress.innerHTML = 100;
       };
@@ -156,16 +147,16 @@ if (tests.dnd) {
      
 </section>
 
-<script src="./HTML5 Demo  Drag and drop, automatic upload_files/prettify.packed.js"></script>
+<script src="./src/prettify.packed.js"></script>
 <script>
 var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
 document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script src="http://www.google-analytics.com/ga.js" type="text/javascript"></script><script src="./HTML5 Demo  Drag and drop, automatic upload_files/ga.js" type="text/javascript"></script>
+</script><script src="./src/ga.js" type="text/javascript"></script>
 <script>
 try {
 var pageTracker = _gat._getTracker("UA-1656750-18");
 pageTracker._trackPageview();
 } catch(err) {}</script>
-
-
+<div align="center" style="margin-top:-100px;">
+<img src="src/bottom.png" width="50%"></div>
 </body></html>
